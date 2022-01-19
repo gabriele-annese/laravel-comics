@@ -5,8 +5,8 @@
   align-items: center;
 }
 .header-container .logo {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 .header-container .logo img {
   width: 100%;
@@ -54,7 +54,6 @@ footer {
   width: 100%;
   background-color: #303030;
   color: #fff;
-  margin-top: 2rem;
 }
 footer .container-footer {
   display: flex;
@@ -86,4 +85,28 @@ footer .container-footer .social-ctn .social img {
 }
 footer .container-footer .social-ctn .social img:hover {
   width: 25px;
+}
+
+.homepage {
+  width: 100%;
+  background-color: #1c1c1c;
+  color: #fff;
+  border-bottom: 30px solid #0182f9;
+  padding: 2rem 0;
+}
+.homepage .main-ctn {
+  width: 80%;
+  margin: 0 auto;
+}
+.homepage .main-ctn .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.homepage .main-ctn .cards .card {
+  width: 16.6666666667%;
+  padding: 0.5rem 1rem;
+}
+.homepage .main-ctn .cards .card h4 {
+  font-size: 16px;
+  padding: 0.2rem 0;
 }

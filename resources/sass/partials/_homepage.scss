@@ -1,0 +1,23 @@
+ .homepage{
+    width: 100%;
+    background-color: $black-main;
+    color: $primary-color;
+    border-bottom: 30px solid $second-color;
+    padding: 2rem 0;
+    .main-ctn{
+        width: 80%;
+        margin: 0 auto;
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            .card{
+                width: calc(100% / 6);
+                padding: 0.5rem 1rem;
+                h4{
+                    font-size: 16px;
+                    padding: 0.2rem 0;
+                }
+            }
+        }
+    }
+}
