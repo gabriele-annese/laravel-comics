@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('main-content')
-    <h1>news its ok</h1>
+    <h1>Work in progres...</h1>
 @endsection
