@@ -28,6 +28,9 @@
                     border-bottom: 2px solid $second-color;
                 }
             }
+            .active{
+                color: $second-color;
+            }
         }
     }
 }

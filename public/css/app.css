@@ -31,6 +31,9 @@
   color: #0182f9;
   border-bottom: 2px solid #0182f9;
 }
+.header-container .navbar ul .active {
+  color: #0182f9;
+}
 
 * {
   margin: 0;

@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
 @section('main-content')
-    <h1>home its ok</h1>
+    <section class="homepage">
+        <div class="main-ctn">
+            
+        </div>
+    </section>
 @endsection
