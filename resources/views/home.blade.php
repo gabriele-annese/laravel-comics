@@ -6,12 +6,14 @@
     <section class="homepage">
         <div class="main-ctn">
             <div class="cards">
-                @foreach ($cards as $card )
+                @foreach ($cards as $index => $card )
                     <div class="card">
-                        <div class="img-ctn">
-                            <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }}">
-                        </div>
-                        <h4>{{ $card['series'] }}</h4>
+                        <a href="{{ route('card', ['id' => $index])}}">
+                            <div class="img-ctn">
+                                <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }}">
+                            </div>
+                            <h4>{{ $card['series'] }}</h4>
+                        </a>
                     </div>
                 @endforeach
             </div>

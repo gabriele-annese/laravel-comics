@@ -13,9 +13,13 @@
             .card{
                 width: calc(100% / 6);
                 padding: 0.5rem 1rem;
-                h4{
-                    font-size: 16px;
-                    padding: 0.2rem 0;
+                a{
+                    color: $primary-color;
+                    text-decoration: none;
+                    h4{
+                        font-size: 16px;
+                        padding: 0.2rem 0;
+                    }
                 }
             }
         }

@@ -37,7 +37,7 @@ Route::get('/card/{id}', function($id){
         'card' => $card,
     ]);
 
-});
+})->name('card');
 
 
 Route::get('/news', function () {

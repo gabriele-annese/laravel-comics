@@ -38,7 +38,7 @@
             </div>
             <div class="text-ctn">
                 <p>
-                    {{$card['description']}}
+                    {{ $card['description'] }}
                 </p>
             </div>
         </div>

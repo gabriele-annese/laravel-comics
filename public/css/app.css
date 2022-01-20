@@ -113,7 +113,11 @@ footer .container-footer .social-ctn .social img:hover {
   width: 16.6666666667%;
   padding: 0.5rem 1rem;
 }
-.homepage .main-ctn .cards .card h4 {
+.homepage .main-ctn .cards .card a {
+  color: #fff;
+  text-decoration: none;
+}
+.homepage .main-ctn .cards .card a h4 {
   font-size: 16px;
   padding: 0.2rem 0;
 }
