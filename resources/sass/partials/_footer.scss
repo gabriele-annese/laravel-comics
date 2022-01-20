@@ -24,6 +24,10 @@ footer{
             display:  flex;
             align-items: center;
             height: 35px;
+            span{
+                text-transform:  uppercase;
+                color: $second-color;
+            }
             .social{
                 padding-left: 1rem;
                 img{

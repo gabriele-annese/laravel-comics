@@ -28,7 +28,6 @@
   border-bottom: 2px solid transparent;
 }
 .header-container .navbar ul a:hover {
-  color: #0182f9;
   border-bottom: 2px solid #0182f9;
 }
 .header-container .navbar ul .active {
@@ -39,6 +38,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -77,6 +80,10 @@ footer .container-footer .social-ctn {
   align-items: center;
   height: 35px;
 }
+footer .container-footer .social-ctn span {
+  text-transform: uppercase;
+  color: #0182f9;
+}
 footer .container-footer .social-ctn .social {
   padding-left: 1rem;
 }
@@ -109,4 +116,119 @@ footer .container-footer .social-ctn .social img:hover {
 .homepage .main-ctn .cards .card h4 {
   font-size: 16px;
   padding: 0.2rem 0;
+}
+
+.card-info .billboard {
+  width: 100%;
+  height: 400px;
+  border-bottom: 40px solid #0182f9;
+  position: relative;
+}
+.card-info .billboard img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-info .billboard .img-ctn {
+  width: 150px;
+  height: 250px;
+  position: absolute;
+  bottom: -15px;
+  left: 25%;
+}
+.card-info .billboard .img-ctn img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.card-info .billboard .img-ctn .type {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+  background-color: #00a9d9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: lighter;
+  padding: 3px;
+}
+.card-info .billboard .img-ctn .view {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+  background-color: #00a9d9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: lighter;
+  padding: 3px;
+}
+.card-info .info-section {
+  width: 50%;
+  margin: 50px auto;
+  display: flex;
+}
+.card-info .info-section .info-ctn {
+  width: 80%;
+}
+.card-info .info-section .info-ctn .title {
+  color: #16435f;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.card-info .info-section .info-ctn .buy-box {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #55b959;
+  color: #fff;
+  font-size: 13px;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+.card-info .info-section .info-ctn .buy-box .buy-info {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-info .info-section .info-ctn .buy-box .buy-info .price {
+  font-size: 15px;
+}
+.card-info .info-section .info-ctn .buy-box .btn-ctn {
+  width: 30%;
+  text-align: center;
+}
+.card-info .info-section .info-ctn .text-ctn {
+  margin-top: 20px;
+}
+.card-info .info-section .info-ctn .text-ctn p {
+  color: #aa9fa1;
+  font-size: 14px;
+  line-height: 25px;
+}
+.card-info .info-section .adv-ctn {
+  width: 20%;
+  margin-left: 40px;
+  position: relative;
+}
+.card-info .info-section .adv-ctn .img-ctn {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  bottom: 20px;
+}
+.card-info .info-section .adv-ctn .img-ctn img {
+  width: 100%;
+  height: 100%;
+}
+.card-info .info-section .adv-ctn .img-ctn .adv-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #6f778e;
+  position: absolute;
+  right: 0;
+  top: -20px;
 }

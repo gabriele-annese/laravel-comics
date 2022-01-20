@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('head-title', 'Homepage')
+
 @section('main-content')
     <section class="homepage">
         <div class="main-ctn">
@@ -15,4 +17,8 @@
             </div>
         </div>
     </section>
+@endsection
+
+@section('footer-scripts')
+    <script src="{{ asset('js/app.js') }}"></script>
 @endsection
